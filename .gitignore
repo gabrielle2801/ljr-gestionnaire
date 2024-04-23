@@ -65,10 +65,17 @@ target/
 
 
 # Environments
-.venv
+.env
+.env/
+.venv/
+.myvenv/
+myvenv/
+env/
 venv/
 ENV/
-.env/
+env.bak/
+venv.bak/
+pythonenv*
 
 # Rope project settings
 .ropeproject
